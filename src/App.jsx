@@ -50,11 +50,11 @@ const App = () => {
             <span class="switch-right">No</span>
             </label>   
           </div>
-<div class="footer">
-  <div class="footer-text">
+<div className="footer">
+  <div className="footer-text">
     Made with 💖by <a href="https://github.com/m4xy07" target="_blank" rel="noopener noreferrer">m4xy07</a>
   </div>
-  <div class="icons">
+  <div className="icons">
     <a href="https://github.com/m4xy07" className="icon github" target="_blank" rel="noopener noreferrer">
       <FaGithub size={30} />
     </a>

@@ -34,14 +34,14 @@ body {
 }
 
 .quote-text {
-  font-size: clamp(0.9rem, 4vw, 1.75rem);
+  font-size: clamp(0.9rem, 4vw, 1.65rem);
   color: #ffffff;
   margin-bottom: 1rem;
   max-height: 800px;
 }
 
 .quote-author {
-  font-size: clamp(1.1rem, 4vw, 1.5rem);
+  font-size: clamp(1.1rem, 4vw, 1.4rem);
   color: #9e9e9e;
 }
 
@@ -175,4 +175,3 @@ transparent;
       scrollbar-width: thin;
       scrollbar-color: #f3c50e #1f1f1f;
     }
-    
