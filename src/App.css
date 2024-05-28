@@ -12,14 +12,12 @@
 }
 
 .icon.globe:hover {
-    color: #34A853;
+    color: #34a853;
 }
 
 .icon.linkedin:hover {
-    
-    color: #0A66C2;
+    color: #0a66c2;
 }
-
 
 .toggle-switch input[type="checkbox"] {
     visibility: hidden;
@@ -47,8 +45,7 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    color:
-        #888;
+    color: #888;
     width: 7em;
     height: 4em;
     overflow: hidden;
@@ -66,8 +63,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color:
-        #999;
+    background-color: #999;
     border: 0.5em solid #eee;
     border-bottom: 0;
 }
@@ -90,18 +86,15 @@
     width: 2.75em;
     left: 0.85em;
     bottom: 0.4em;
-    background-color:
-        #ddd;
+    background-color: #ddd;
     transform: rotate(15deg) skewX(15deg);
 }
 
 .toggle-switch .switch-right {
     right: 0.5em;
     bottom: 0;
-    background-color:
-        #bd5757;
-    color:
-        #fff;
+    background-color: #bd5757;
+    color: #fff;
 }
 
 .toggle-switch .switch-left::before,
@@ -111,8 +104,7 @@
     width: 0.4em;
     height: 2.45em;
     bottom: -0.45em;
-    background-color:
-        #ccc;
+    background-color: #ccc;
     transform: skewY(-65deg);
 }
 
@@ -122,16 +114,13 @@
 
 .toggle-switch .switch-right::before {
     right: -0.375em;
-    background-color:
-        transparent;
+    background-color: transparent;
     transform: skewY(65deg);
 }
 
 .toggle-switch input:checked+.switch-left {
-    background-color:
-        #0084d0;
-    color:
-        #fff;
+    background-color: #0084d0;
+    color: #fff;
     bottom: 0px;
     left: 0.5em;
     height: 2.5em;
@@ -140,16 +129,13 @@
 }
 
 .toggle-switch input:checked+.switch-left::before {
-    background-color:
-        transparent;
+    background-color: transparent;
     width: 3.0833em;
 }
 
 .toggle-switch input:checked+.switch-left+.switch-right {
-    background-color:
-        #ddd;
-    color:
-        #888;
+    background-color: #ddd;
+    color: #888;
     bottom: 0.4em;
     right: 0.8em;
     height: 2.4em;
@@ -158,68 +144,110 @@
 }
 
 .toggle-switch input:checked+.switch-left+.switch-right::before {
-    background-color:
-        #ccc;
+    background-color: #ccc;
 }
 
 /* Keyboard Users */
 .toggle-switch input:focus+.switch-left {
-    color:
-        #333;
+    color: #333;
 }
 
 .toggle-switch input:checked:focus+.switch-left {
-    color:
-        #fff;
+    color: #fff;
 }
 
 .toggle-switch input:focus+.switch-left+.switch-right {
-    color:
-        #fff;
+    color: #fff;
 }
 
 .toggle-switch input:checked:focus+.switch-left+.switch-right {
-    color:
-        #333;
+    color: #333;
 }
+
 p {
     color: white;
 }
 
-.footer {
-    position: fixed;
-    bottom: 0;
-    width: 97%;
-    padding-top: 15px;
-    padding: 10px;
-    color: #ccc;
-    display: flex;
-    justify-content: space-between;
-    color: white;
-}
-
-.footer-text {
-    flex-grow: 1;
-    text-align: center;
-    
-}
-
 .icons {
+    bottom: 0;
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     position: absolute;
-    right: 10px;
-    display: flex-end;
+    display: flex;
     flex-direction: row;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width: 768px) {
     .icons {
         flex-direction: column;
-        justify-content: flex-end;
+        justify-content: flex-start;
     }
-         .icons a {
-             font-size: 20px;
-             
-         }
+
+    .icons a {
+        font-size: 20px;
+    }
 }
 
+.wrap-delete * {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.button-delete {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.wrap-delete button {
+    width: 100px;
+    height: 33px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: #fca311;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+    background: #f4a220;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.wrap-delete button .text {
+    transform: translateX(23px);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.wrap-delete button .icon {
+    position: absolute;
+    border-left: 1px solid #000000;
+    transform: translateX(73px);
+    height: 27px;
+    width: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrap-delete button:hover .icon {
+    width: 100px;
+    border-left: none;
+    transform: translateX(0);
+}
+
+.wrap-delete button:focus {
+    outline: none;
+}
+body {
+    background: radial-gradient(circle 300px at top left, rgba(255, 255, 255, 0.5) 0%, rgb(0, 0, 0) 100%);
+}
