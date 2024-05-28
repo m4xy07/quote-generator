@@ -187,9 +187,10 @@ p {
 }
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 97%;
+    padding-top: 15px;
     padding: 10px;
     color: #ccc;
     display: flex;
@@ -221,3 +222,4 @@ p {
              
          }
 }
+
