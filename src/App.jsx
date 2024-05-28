@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import Quote from './Quote';
-import { getQuote } from './quotes';
+import Quote from './Quote.jsx';
+import { getQuote } from './quotes.jsx';
 import { FaGithub, FaGlobe, FaLinkedin } from 'react-icons/fa';
 import './App.css';
-import { updateBodyClass } from './index.js';
+import { updateBodyClass } from './index.jsx';
 
 const App = () => {
   const [quote, setQuote] = useState(null);
