@@ -85,7 +85,7 @@
 .toggle-switch .switch-right {
     right: 0.5em;
     bottom: 0;
-    background-color: #bd5757;
+    background-color: #0084d0;
     color: #fff;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .toggle-switch input:checked+.switch-left {
-    background-color: #0084d0;
+    background-color: #bd5757;
     color: #fff;
     bottom: 0px;
     left: 0.5em;

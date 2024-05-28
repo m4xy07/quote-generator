@@ -86,8 +86,8 @@ const App = () => {
             checked={simpleMode}
             onChange={() => setSimpleMode(!simpleMode)}
           />
-          <span class="switch-left">Yes</span>
-          <span class="switch-right">No</span>
+          <span class="switch-left">No</span>
+          <span class="switch-right">Yes</span>
         </label>
       </div>
 
