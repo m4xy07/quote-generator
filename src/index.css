@@ -9,6 +9,8 @@ body {
   width: 100vw;
   margin: 0;
   overflow-x: hidden;
+  background: radial-gradient(circle 450px at top left, rgba(15, 15, 15, 0.726) -200px, rgb(0, 0, 0) 150%), url("/public/bg.svg");
+  background-repeat: no-repeat;
 }
 
 .content {
