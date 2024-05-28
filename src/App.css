@@ -1,0 +1,207 @@
+.icon {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+}
+
+.icon.github:hover {
+    color: black;
+}
+
+.icon.globe:hover {
+    color: #34A853;
+}
+
+.icon.linkedin:hover {
+    
+    color: #0A66C2;
+}
+
+.icons {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    /* Adjust as needed */
+    padding: 10px;
+}
+
+.toggle-switch input[type="checkbox"] {
+    visibility: hidden;
+    display: none;
+}
+
+.toggle-switch *,
+.toggle-switch ::after,
+.toggle-switch ::before {
+    box-sizing: border-box;
+}
+
+.toggle-switch .rocker {
+    display: inline-block;
+    position: relative;
+    /*
+    SIZE OF SWITCH
+    ==============
+    All sizes are in em - therefore
+    changing the font-size here
+    will change the size of the switch.
+    See .rocker-small below as example.
+    */
+    font-size: 0.5em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color:
+        #888;
+    width: 7em;
+    height: 4em;
+    overflow: hidden;
+    border-bottom: 0.5em solid #eee;
+}
+
+.toggle-switch .rocker-small {
+    font-size: 0.5em;
+}
+
+.toggle-switch .rocker::before {
+    content: "";
+    position: absolute;
+    top: 0.5em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:
+        #999;
+    border: 0.5em solid #eee;
+    border-bottom: 0;
+}
+
+.toggle-switch .switch-left,
+.toggle-switch .switch-right {
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.5em;
+    width: 3em;
+    transition: 0.2s;
+    user-select: none;
+}
+
+.toggle-switch .switch-left {
+    height: 2.4em;
+    width: 2.75em;
+    left: 0.85em;
+    bottom: 0.4em;
+    background-color:
+        #ddd;
+    transform: rotate(15deg) skewX(15deg);
+}
+
+.toggle-switch .switch-right {
+    right: 0.5em;
+    bottom: 0;
+    background-color:
+        #bd5757;
+    color:
+        #fff;
+}
+
+.toggle-switch .switch-left::before,
+.toggle-switch .switch-right::before {
+    content: "";
+    position: absolute;
+    width: 0.4em;
+    height: 2.45em;
+    bottom: -0.45em;
+    background-color:
+        #ccc;
+    transform: skewY(-65deg);
+}
+
+.toggle-switch .switch-left::before {
+    left: -0.4em;
+}
+
+.toggle-switch .switch-right::before {
+    right: -0.375em;
+    background-color:
+        transparent;
+    transform: skewY(65deg);
+}
+
+.toggle-switch input:checked+.switch-left {
+    background-color:
+        #0084d0;
+    color:
+        #fff;
+    bottom: 0px;
+    left: 0.5em;
+    height: 2.5em;
+    width: 3em;
+    transform: rotate(0deg) skewX(0deg);
+}
+
+.toggle-switch input:checked+.switch-left::before {
+    background-color:
+        transparent;
+    width: 3.0833em;
+}
+
+.toggle-switch input:checked+.switch-left+.switch-right {
+    background-color:
+        #ddd;
+    color:
+        #888;
+    bottom: 0.4em;
+    right: 0.8em;
+    height: 2.4em;
+    width: 2.75em;
+    transform: rotate(-15deg) skewX(-15deg);
+}
+
+.toggle-switch input:checked+.switch-left+.switch-right::before {
+    background-color:
+        #ccc;
+}
+
+/* Keyboard Users */
+.toggle-switch input:focus+.switch-left {
+    color:
+        #333;
+}
+
+.toggle-switch input:checked:focus+.switch-left {
+    color:
+        #fff;
+}
+
+.toggle-switch input:focus+.switch-left+.switch-right {
+    color:
+        #fff;
+}
+
+.toggle-switch input:checked:focus+.switch-left+.switch-right {
+    color:
+        #333;
+}
+p {
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    color: #ccc;
+
+}
