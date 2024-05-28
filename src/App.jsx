@@ -52,7 +52,7 @@ const App = () => {
           </div>
 <div className="footer">
   <div className="footer-text">
-    Made with 💖by <a href="https://github.com/m4xy07" target="_blank" rel="noopener noreferrer">m4xy07</a>
+    <a href="https://github.com/m4xy07" target="_blank" rel="noopener noreferrer">Made with 💖</a>
   </div>
   <div className="icons">
     <a href="https://github.com/m4xy07" className="icon github" target="_blank" rel="noopener noreferrer">
