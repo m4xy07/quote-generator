@@ -90,19 +90,19 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.wrap-delete * {
+.wrap-btn * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.wrap-delete {
+.wrap-btn {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.button-delete {
+.button-btn {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
@@ -112,7 +112,7 @@ body {
   -webkit-tap-highlight-color: transparent;
 }
 
-.wrap-delete button {
+.wrap-btn button {
   width: 150px;
   height: 50px;
   cursor: pointer;
@@ -125,18 +125,18 @@ body {
   background: fca311;
 }
 
-.wrap-delete button,
-.wrap-delete button span {
+.wrap-btn button,
+.wrap-btn button span {
   transition: 200ms;
 }
 
-.wrap-delete button .text {
+.wrap-btn button .text {
   transform: translateX(35px);
   color: white;
   font-weight: bold;
 }
 
-.wrap-delete button .icon {
+.wrap-btn button .icon {
   position: absolute;
   border-left: 1px solid #000000;
   transform: translateX(110px);
@@ -147,26 +147,26 @@ body {
   justify-content: center;
 }
 
-.wrap-delete button svg {
+.wrap-btn button svg {
   width: 15px;
   fill: #000000;
 }
 
-.wrap-delete button:hover {
+.wrap-btn button:hover {
   background: #ffc300;
 }
 
-.wrap-delete button:hover .text {
+.wrap-btn button:hover .text {
   color: transparent;
 }
 
-.wrap-delete button:hover .icon {
+.wrap-btn button:hover .icon {
   width: 150px;
   border-left: none;
   transform: translateX(0);
 }
 
-.wrap-delete button:focus {
+.wrap-btn button:focus {
   outline: none;
 }
 

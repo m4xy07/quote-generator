@@ -184,12 +184,12 @@ p {
     }
 }
 
-.wrap-delete * {
+.wrap-btn * {
     display: flex;
     box-sizing: border-box;
 }
 
-.button-delete {
+.button-btn {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -199,7 +199,7 @@ p {
     -webkit-tap-highlight-color: transparent;
 }
 
-.wrap-delete button {
+.wrap-btn button {
     width: 100px;
     height: 33px;
     cursor: pointer;
@@ -213,13 +213,13 @@ p {
 
 }
 
-.wrap-delete button .text {
+.wrap-btn button .text {
     transform: translateX(23px);
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
 
-.wrap-delete button .icon {
+.wrap-btn button .icon {
     position: absolute;
     border-left: 1px solid #000000;
     transform: translateX(73px);
@@ -230,13 +230,13 @@ p {
     justify-content: center;
 }
 
-.wrap-delete button:hover .icon {
+.wrap-btn button:hover .icon {
     width: 100px;
     border-left: none;
     transform: translateX(0);
 }
 
-.wrap-delete button:focus {
+.wrap-btn button:focus {
     outline: none;
 }
 

@@ -54,8 +54,8 @@ const App = () => {
   return (
     <div className="app">
       <Quote quote={quote?.en} author={quote?.author} />
-      <div class="wrap-delete">
-        <button class="button-delete" style={{ marginRight: '30px' }} onClick={handleClick}>
+      <div class="wrap-btn">
+        <button class="button-btn" style={{ marginRight: '30px' }} onClick={handleClick}>
           <span class="text">Next</span>
           <span class="icon">
             <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -63,7 +63,7 @@ const App = () => {
             </svg>
           </span>
         </button>
-        <button class="button-delete" onClick={downloadQuote}>
+        <button class="button-btn" onClick={downloadQuote}>
           <span class="text">Save</span>
           <span class="icon">
             <svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
