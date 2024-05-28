@@ -33,14 +33,6 @@
 .toggle-switch .rocker {
     display: inline-block;
     position: relative;
-    /*
-    SIZE OF SWITCH
-    ==============
-    All sizes are in em - therefore
-    changing the font-size here
-    will change the size of the switch.
-    See .rocker-small below as example.
-    */
     font-size: 0.5em;
     font-weight: bold;
     text-align: center;
@@ -183,7 +175,7 @@ p {
 
 @media (max-width: 768px) {
     .icons {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: flex-start;
     }
 
@@ -218,8 +210,7 @@ p {
     border-radius: 5px;
     box-shadow: 1px 1px 3px rgb(0, 0, 0);
     background: #f4a220;
-    margin-right: 30px;
-    margin-left: 30px;
+
 }
 
 .wrap-delete button .text {
@@ -248,6 +239,8 @@ p {
 .wrap-delete button:focus {
     outline: none;
 }
+
 body {
-    background: radial-gradient(circle 300px at top left, rgba(255, 255, 255, 0.5) 0%, rgb(0, 0, 0) 100%);
+ background: radial-gradient(circle 450px at top left, rgba(15, 15, 15, 0.548) -200px, rgb(0, 0, 0) 150%);
+ 
 }

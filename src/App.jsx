@@ -55,7 +55,7 @@ const App = () => {
     <div className="app">
       <Quote quote={quote?.en} author={quote?.author} />
       <div class="wrap-delete">
-        <button class="button-delete" onClick={handleClick}>
+        <button class="button-delete" style={{ marginRight: '30px' }} onClick={handleClick}>
           <span class="text">Next</span>
           <span class="icon">
             <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">

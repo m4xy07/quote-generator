@@ -7,8 +7,8 @@ body {
   align-items: center;
   min-height: 100vh;
   width: 100vw;
-  overflow: auto;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .content {
@@ -40,6 +40,7 @@ body {
   color: #ffffff;
   margin-bottom: 1rem;
   max-height: fit-content;
+  max-width: fit-content;
 }
 
 .quote-author {
@@ -74,6 +75,14 @@ body {
 @media (min-width: 768px) {
   .load-quote-btn {
     padding: 0.25em 0.75em;
+  }
+}
+
+@media (max-width: 768px) {
+  .quote {
+    font-size: clamp(0.8rem, 4vw, 1.5rem);
+    max-width: 300px;
+    margin: 0 auto;
   }
 }
 
