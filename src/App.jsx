@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Quote from './Quote.jsx';
-import { getQuote } from './quotes.jsx';
+import { getQuote } from './fetchquotes.jsx';
 import { FaGithub, FaGlobe, FaLinkedin } from 'react-icons/fa';
 import './App.css';
 import { updateBodyClass } from './index.jsx';
