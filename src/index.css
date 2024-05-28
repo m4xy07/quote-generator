@@ -20,7 +20,7 @@ body {
 }
 
 .quote {
-  font-size: 1.5rem;
+  font-size: clamp(0.8rem, 4vw, 1.5rem);
   line-height: 1.7;
   text-align: center;
   max-width: 1200px;
@@ -29,7 +29,7 @@ body {
 }
 
 .quote-icon {
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 4vw, 3rem);
   color: #f3c50e;
 }
 
@@ -37,7 +37,7 @@ body {
   font-size: clamp(0.9rem, 4vw, 1.65rem);
   color: #ffffff;
   margin-bottom: 1rem;
-  max-height: 800px;
+  max-height: fit-content;
 }
 
 .quote-author {
