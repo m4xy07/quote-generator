@@ -9,7 +9,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  overflow: auto;
   margin: 0;
 }
 
@@ -157,3 +157,22 @@ transparent;
   .wrap-delete button:focus {
       outline: none;
   }
+
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+  
+    ::-webkit-scrollbar-track {
+      background: #1f1f1f;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: #f3c50e;
+    }
+  
+    /* For Firefox */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: #f3c50e #1f1f1f;
+    }
+    
