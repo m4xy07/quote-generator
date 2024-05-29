@@ -16,7 +16,7 @@ const App = () => {
     const element = document.createElement("a");
     const file = new Blob(
       [
-        `${quote?.en} \n- ${quote?.author}\n\nhttps://quotes.m4xy.org | https://github.com/m4xy07`,
+        `"${quote?.en}" \n- ${quote?.author}\n\nhttps://quotes.m4xy.org | https://github.com/m4xy07`,
       ],
       { type: "text/plain" }
     );
