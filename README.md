@@ -1,4 +1,4 @@
-# Quote Generator
+# React - Quote Generator
 
 This is a simple quote generator built with React. It displays random quotes from a predefined list.
 You can view it live at https://quotes.m4xy.org/
