@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/m4xy07/quote-generator"},
   "dependencies": {
-    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/jest-dom": "^6.5.0",
     "@testing-library/react": "^16.0.1",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.4",
