@@ -7,7 +7,7 @@
     "url": "https://github.com/m4xy07/quote-generator"},
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
-    "@testing-library/react": "^16.0.1",
+    "@testing-library/react": "^16.1.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.9",
     "foaas-client": "^0.2.0",
